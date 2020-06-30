@@ -17,4 +17,9 @@ class QuotesManager {
         let jsonDecoder = JSONDecoder()
         quotes = try! jsonDecoder.decode([Quote].self, from: jsonData)
     }
+    
+    func getRandomQuote() -> Quote {
+        let index = Int(arc4random_uniform(UInt32(quotes.count)))
+        return quotes[index]
+    }
 }

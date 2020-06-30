@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8435340224AAC13100B091E1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8435340124AAC13100B091E1 /* Settings.bundle */; };
 		84BBBB1224A934FC0084C6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBBB1124A934FC0084C6AB /* AppDelegate.swift */; };
 		84BBBB1424A934FC0084C6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBBB1324A934FC0084C6AB /* SceneDelegate.swift */; };
 		84BBBB1624A934FC0084C6AB /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBBB1524A934FC0084C6AB /* QuotesViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8435340124AAC13100B091E1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = PensamentosSwift/Settings.bundle; sourceTree = SOURCE_ROOT; };
 		84BBBB0E24A934FC0084C6AB /* PensamentosSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PensamentosSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBBB1124A934FC0084C6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BBBB1324A934FC0084C6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				84BBBB1A24A934FE0084C6AB /* Assets.xcassets */,
 				84BBBB1124A934FC0084C6AB /* AppDelegate.swift */,
 				84BBBB1324A934FC0084C6AB /* SceneDelegate.swift */,
+				8435340124AAC13100B091E1 /* Settings.bundle */,
 				84BBBB1F24A934FE0084C6AB /* Info.plist */,
 				84BBBB2D24A937450084C6AB /* Files */,
 				84BBBB3624A95F2D0084C6AB /* Models */,
@@ -180,6 +183,7 @@
 				84BBBB1E24A934FE0084C6AB /* LaunchScreen.storyboard in Resources */,
 				84BBBB1B24A934FE0084C6AB /* Assets.xcassets in Resources */,
 				84BBBB2C24A937310084C6AB /* Savoye LET.ttc in Resources */,
+				8435340224AAC13100B091E1 /* Settings.bundle in Resources */,
 				84BBBB1924A934FC0084C6AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

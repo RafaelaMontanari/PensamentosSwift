@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Quote: Codable //Encodable e Decodable {
+struct Quote: Codable { //Encodable e Decodable
     let quote: String
     let author: String
     let image: String
